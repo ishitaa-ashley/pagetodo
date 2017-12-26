@@ -1,0 +1,286 @@
+#grad
+{
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: linear-gradient(to bottom right, #59B1EE, #8141BF);
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.no-gutter
+{
+	 padding-right:0;
+    padding-left:0;
+}
+#bttn2
+{
+	margin-left: 10px;
+}
+
+.down
+{
+	opacity: 1;
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	height: 30px;
+	border-color: black;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+
+ul#menu li
+{
+	display: inline;
+	color: white;
+	font-size: 15px;
+	margin-top: 50px;
+	margin:auto;
+	margin-right: 10px;
+	padding-left: 0px;
+}
+ul#menu li:last-child
+{
+	margin-right: 0px;
+}
+
+ul#me li
+{
+	display: inline;
+	margin-left: 20px;
+	color: white;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.r1
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	color: white;
+	text-align: center;
+	background-color: gray;
+	font-size: 20px;
+	border-style: solid;
+	border-color: white;
+}
+#img1
+{
+	float: right;
+	height: 85%;
+	width: 90%;
+	margin-right: 25px;
+	margin-top: 50px;
+}
+#logo
+{
+	margin-top: 40px;
+	margin-left: 60px;
+	border-radius: 20px;
+}
+
+#heading
+{
+	color: white;
+	font-size: 30px;
+	margin-left: 65px;
+	margin-top: 30px;
+}
+
+.sub
+{
+	color: white;
+	font-size: 15px;
+	margin-top: 8px;
+	margin-left: 65px;
+}
+#bttn1, #bttn2, #bttn3
+{
+	height: 37px;
+	width: 130px;
+	border-radius: 6px;
+	border-color: #192538;
+	border-style: none;
+
+
+}
+#bttn1:hover, #bttn2:hover, #bttn3:hover
+{
+	box-shadow: 0 0 12px;
+	cursor: pointer;
+}
+
+
+
+#bttn1
+{
+	background-image: url("https://www.getsmartapp.com/images/Appstore.png");
+	background-size: 100% 100%;
+	
+}
+#bttn2
+{
+	background-image: url("https://www.getsmartapp.com/images/Playstore.png");
+	background-size: 100% 100%;
+}
+#bttn3
+{
+	background-image: url("https://www.getsmartapp.com/images/macBtn.png");
+	background-size: 100% 100%;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+#nbr
+{
+	
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 170px;
+	padding-left:  10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-left:none;
+
+}
+#sms
+{
+	background-color: #323232;
+	color: white;
+	text-align: center;
+	width: 100px;
+	border-radius: 5px;
+	border-style: none;
+	font-size: 12px;
+	height: 36px;
+}
+.col-sm-12
+{
+	margin: auto;
+	top:0;
+	bottom:0;
+	right: 0;
+	left: 0;
+}
+
+
+.ro
+{
+	margin-left: 7%;
+}
+
+.sel
+{
+	width: 40px;
+	margin-left: 0px;
+	height: 34px;
+	border-color: white;
+	margin-top: 2px;
+	border-right: none;
+}
+
+}
+.fun
+{
+	height: 40px;
+}
+#bttn1
+{
+	margin-left: 35px;
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+	
+	#logo
+	{
+		margin: auto;
+		height: 100px;
+		width: 100px;
+	}
+	.btn
+	{
+	padding-left: 10%;
+	}
+	.main
+	{
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+	#heading, .sub, #sub
+	{
+		
+		text-align: center;
+		margin: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#bttn2, #bttn1, #bttn3, .row3, col-sm-12
+	{
+
+		margin:auto!important;
+
+	}
+	.unknown
+	{
+	height: 35px;
+	width: 100%;
+	}
+	.roundrow
+	{
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin-left: 25%;
+		margin-top: 10px;
+	}
+	
+	#nbr
+	{
+		margin-left: auto;
+	}
+	
+	
+	.ro
+	{
+		margin-left: 30%;
+		padding-top: 20px;
+	}
+	
+
+	
+}
+@media only screen and (max-width: 600px)
+{
+	.ss
+	{
+		margin-left: 23%;
+	}
+
+	.roundrow
+	{
+		margin: auto;
+	}
+	.ro
+	{
+		margin-left: 10%;
+	}
+	
+}
+#sms:hover
+{
+	cursor: pointer;
+}
